@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакти — Саймон Бейкер</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>Зворотний зв'язок</h1>
+  <nav class="box-menu">
+    <a href="index.html">Головна</a> |
+    <a href="contact.html">Контакти</a> |
+    <a href="photo.html">Фільмографія</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Зв'язатися з нами</h2>
+
+  <form>
+    <label for="name">Ваше ім'я:</label>
+    <input type="text" id="name" placeholder="Введіть ім'я" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="example@gmail.com" required>
+
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" placeholder="Пароль" required>
+
+    <label for="bday">Дата:</label>
+    <input type="date" id="bday">
+
+    <label for="subject">Тема:</label>
+    <select id="subject" style="display: block; margin: 8px 0; padding: 8px; width: 268px;">
+      <option value="coop">Співпраця</option>
+      <option value="fan">Клуб фанатів</option>
+      <option value="other">Інше</option>
+    </select>
+
+    <label for="message">Повідомлення:</label>
+    <textarea id="message" rows="4" placeholder="Ваше повідомлення..." style="display: block; margin: 8px 0; padding: 8px; width: 250px;"></textarea>
+
+    <button type="submit">Надіслати</button>
+  </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(to right, lightblue, pink);
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  font-family: Arial, sans-serif;
+  margin: 8px;
+}
+header {
+  text-align: left;
+}
+
+h1 {
+  color: blue;
+  text-align: left;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-left:0 ;
+}
+
+input, textarea, button {
+  display: block;
+  margin: 5px 0;
+}
+body {
+  text-align: left;
+}
+.box {
+  background-color: var();
+  padding: 15px;
+  margin-bottom: 15px;
+  max-width: 900px;
+}
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.box {
+  background-color: var();
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  border-bottom: 2px solid #555555;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.box-menu {
+  background: #ffffff;
+  padding: 10px 15px;
+  border: 1px solid #888888;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.box-menu a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #0066cc;
+}
+.career-img {
+  float: right;
+  width: 250px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+input, textarea, select, button {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  width: 268px; /* Одинаковая ширина для аккуратности */
+  box-sizing: border-box;
+}
